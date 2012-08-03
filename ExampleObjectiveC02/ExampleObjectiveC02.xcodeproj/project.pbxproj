@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D42621EA143185C700E396AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42621E9143185C700E396AF /* Foundation.framework */; };
+		D42621ED143185C700E396AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D42621EC143185C700E396AF /* main.m */; };
+		D42621F81431879800E396AF /* SerVivo.m in Sources */ = {isa = PBXBuildFile; fileRef = D42621F71431879800E396AF /* SerVivo.m */; };
+		D42621FB143187B800E396AF /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = D42621FA143187B800E396AF /* Animal.m */; };
+		D42621FE143187C700E396AF /* Vegetal.m in Sources */ = {isa = PBXBuildFile; fileRef = D42621FD143187C700E396AF /* Vegetal.m */; };
+		D42622011431881100E396AF /* Racional.m in Sources */ = {isa = PBXBuildFile; fileRef = D42622001431881100E396AF /* Racional.m */; };
+		D42622041431882300E396AF /* Irracional.m in Sources */ = {isa = PBXBuildFile; fileRef = D42622031431882300E396AF /* Irracional.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D42621E3143185C700E396AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D42621E5143185C700E396AF /* ExampleObjectiveC02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExampleObjectiveC02; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42621E9143185C700E396AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D42621EC143185C700E396AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D42621EF143185C700E396AF /* ExampleObjectiveC02-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleObjectiveC02-Prefix.pch"; sourceTree = "<group>"; };
+		D42621F0143185C700E396AF /* ExampleObjectiveC02.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ExampleObjectiveC02.1; sourceTree = "<group>"; };
+		D42621F61431879800E396AF /* SerVivo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerVivo.h; sourceTree = "<group>"; };
+		D42621F71431879800E396AF /* SerVivo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerVivo.m; sourceTree = "<group>"; };
+		D42621F9143187B800E396AF /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		D42621FA143187B800E396AF /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		D42621FC143187C700E396AF /* Vegetal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegetal.h; sourceTree = "<group>"; };
+		D42621FD143187C700E396AF /* Vegetal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vegetal.m; sourceTree = "<group>"; };
+		D42621FF1431881100E396AF /* Racional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Racional.h; sourceTree = "<group>"; };
+		D42622001431881100E396AF /* Racional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Racional.m; sourceTree = "<group>"; };
+		D42622021431882300E396AF /* Irracional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Irracional.h; sourceTree = "<group>"; };
+		D42622031431882300E396AF /* Irracional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Irracional.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D42621E2143185C700E396AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42621EA143185C700E396AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D42621DA143185C700E396AF = {
+			isa = PBXGroup;
+			children = (
+				D42621EB143185C700E396AF /* ExampleObjectiveC02 */,
+				D42621E8143185C700E396AF /* Frameworks */,
+				D42621E6143185C700E396AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D42621E6143185C700E396AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D42621E5143185C700E396AF /* ExampleObjectiveC02 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D42621E8143185C700E396AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D42621E9143185C700E396AF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D42621EB143185C700E396AF /* ExampleObjectiveC02 */ = {
+			isa = PBXGroup;
+			children = (
+				D42621EC143185C700E396AF /* main.m */,
+				D42621F0143185C700E396AF /* ExampleObjectiveC02.1 */,
+				D42621F61431879800E396AF /* SerVivo.h */,
+				D42621F71431879800E396AF /* SerVivo.m */,
+				D42621F9143187B800E396AF /* Animal.h */,
+				D42621FC143187C700E396AF /* Vegetal.h */,
+				D42621FF1431881100E396AF /* Racional.h */,
+				D42622021431882300E396AF /* Irracional.h */,
+				D42622031431882300E396AF /* Irracional.m */,
+				D42622001431881100E396AF /* Racional.m */,
+				D42621FD143187C700E396AF /* Vegetal.m */,
+				D42621FA143187B800E396AF /* Animal.m */,
+				D42621EE143185C700E396AF /* Supporting Files */,
+			);
+			path = ExampleObjectiveC02;
+			sourceTree = "<group>";
+		};
+		D42621EE143185C700E396AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D42621EF143185C700E396AF /* ExampleObjectiveC02-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D42621E4143185C700E396AF /* ExampleObjectiveC02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D42621F3143185C700E396AF /* Build configuration list for PBXNativeTarget "ExampleObjectiveC02" */;
+			buildPhases = (
+				D42621E1143185C700E396AF /* Sources */,
+				D42621E2143185C700E396AF /* Frameworks */,
+				D42621E3143185C700E396AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleObjectiveC02;
+			productName = ExampleObjectiveC02;
+			productReference = D42621E5143185C700E396AF /* ExampleObjectiveC02 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D42621DC143185C700E396AF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D42621DF143185C700E396AF /* Build configuration list for PBXProject "ExampleObjectiveC02" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D42621DA143185C700E396AF;
+			productRefGroup = D42621E6143185C700E396AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D42621E4143185C700E396AF /* ExampleObjectiveC02 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D42621E1143185C700E396AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42621ED143185C700E396AF /* main.m in Sources */,
+				D42621F81431879800E396AF /* SerVivo.m in Sources */,
+				D42621FB143187B800E396AF /* Animal.m in Sources */,
+				D42621FE143187C700E396AF /* Vegetal.m in Sources */,
+				D42622011431881100E396AF /* Racional.m in Sources */,
+				D42622041431882300E396AF /* Irracional.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D42621F1143185C700E396AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D42621F2143185C700E396AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D42621F4143185C700E396AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleObjectiveC02/ExampleObjectiveC02-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D42621F5143185C700E396AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleObjectiveC02/ExampleObjectiveC02-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D42621DF143185C700E396AF /* Build configuration list for PBXProject "ExampleObjectiveC02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42621F1143185C700E396AF /* Debug */,
+				D42621F2143185C700E396AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D42621F3143185C700E396AF /* Build configuration list for PBXNativeTarget "ExampleObjectiveC02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42621F4143185C700E396AF /* Debug */,
+				D42621F5143185C700E396AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D42621DC143185C700E396AF /* Project object */;
+}

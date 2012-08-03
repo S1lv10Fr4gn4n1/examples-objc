@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D42D14471435157D006FE5D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42D14461435157D006FE5D1 /* Foundation.framework */; };
+		D42D144A1435157D006FE5D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D42D14491435157D006FE5D1 /* main.m */; };
+		D4DCDC981436672E0066D144 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DCDC971436672E0066D144 /* MyClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D42D14401435157D006FE5D1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D42D14421435157D006FE5D1 /* ExampleObjectiveC04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExampleObjectiveC04; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42D14461435157D006FE5D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D42D14491435157D006FE5D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D42D144C1435157D006FE5D1 /* ExampleObjectiveC04-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleObjectiveC04-Prefix.pch"; sourceTree = "<group>"; };
+		D42D144D1435157D006FE5D1 /* ExampleObjectiveC04.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ExampleObjectiveC04.1; sourceTree = "<group>"; };
+		D4DCDC961436672E0066D144 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		D4DCDC971436672E0066D144 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D42D143F1435157D006FE5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42D14471435157D006FE5D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D42D14371435157D006FE5D1 = {
+			isa = PBXGroup;
+			children = (
+				D42D14481435157D006FE5D1 /* ExampleObjectiveC04 */,
+				D42D14451435157D006FE5D1 /* Frameworks */,
+				D42D14431435157D006FE5D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D42D14431435157D006FE5D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D42D14421435157D006FE5D1 /* ExampleObjectiveC04 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D42D14451435157D006FE5D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D42D14461435157D006FE5D1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D42D14481435157D006FE5D1 /* ExampleObjectiveC04 */ = {
+			isa = PBXGroup;
+			children = (
+				D4DCDC961436672E0066D144 /* MyClass.h */,
+				D4DCDC971436672E0066D144 /* MyClass.m */,
+				D42D14491435157D006FE5D1 /* main.m */,
+				D42D144D1435157D006FE5D1 /* ExampleObjectiveC04.1 */,
+				D42D144B1435157D006FE5D1 /* Supporting Files */,
+			);
+			path = ExampleObjectiveC04;
+			sourceTree = "<group>";
+		};
+		D42D144B1435157D006FE5D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D42D144C1435157D006FE5D1 /* ExampleObjectiveC04-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D42D14411435157D006FE5D1 /* ExampleObjectiveC04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D42D14501435157D006FE5D1 /* Build configuration list for PBXNativeTarget "ExampleObjectiveC04" */;
+			buildPhases = (
+				D42D143E1435157D006FE5D1 /* Sources */,
+				D42D143F1435157D006FE5D1 /* Frameworks */,
+				D42D14401435157D006FE5D1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleObjectiveC04;
+			productName = ExampleObjectiveC04;
+			productReference = D42D14421435157D006FE5D1 /* ExampleObjectiveC04 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D42D14391435157D006FE5D1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D42D143C1435157D006FE5D1 /* Build configuration list for PBXProject "ExampleObjectiveC04" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D42D14371435157D006FE5D1;
+			productRefGroup = D42D14431435157D006FE5D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D42D14411435157D006FE5D1 /* ExampleObjectiveC04 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D42D143E1435157D006FE5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42D144A1435157D006FE5D1 /* main.m in Sources */,
+				D4DCDC981436672E0066D144 /* MyClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D42D144E1435157D006FE5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D42D144F1435157D006FE5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D42D14511435157D006FE5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleObjectiveC04/ExampleObjectiveC04-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D42D14521435157D006FE5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleObjectiveC04/ExampleObjectiveC04-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D42D143C1435157D006FE5D1 /* Build configuration list for PBXProject "ExampleObjectiveC04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42D144E1435157D006FE5D1 /* Debug */,
+				D42D144F1435157D006FE5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D42D14501435157D006FE5D1 /* Build configuration list for PBXNativeTarget "ExampleObjectiveC04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42D14511435157D006FE5D1 /* Debug */,
+				D42D14521435157D006FE5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D42D14391435157D006FE5D1 /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ExampleObjectiveC13' target in the 'ExampleObjectiveC13' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif

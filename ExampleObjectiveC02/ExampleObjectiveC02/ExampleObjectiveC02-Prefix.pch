@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ExampleObjectiveC02' target in the 'ExampleObjectiveC02' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
